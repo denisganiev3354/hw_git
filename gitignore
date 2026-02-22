@@ -1,0 +1,147 @@
+# Байт-код и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C расширения
+*.so
+
+# Файлы сборки и дистрибуции
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Обычно эти файлы создаются скриптом из шаблона
+#  перед сборкой exe
+*.manifest
+*.spec
+
+# Логи установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчёты тестирования и покрытия кода
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Переводы
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Документация Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   Рекомендуется включать Pipfile.lock в систему контроля версий
+#   Но при совместной работе могут быть проблемы с кроссплатформенными зависимостями
+#Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Виртуальные окружения
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки Spyder
+.spyderproject
+.spyproject
+
+# Настройки Rope
+.ropeproject
+
+# Документация mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Системные файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Файлы IDE и редакторов кода
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы, создаваемые операционной системой
+Thumbs.db
+.DS_Store
